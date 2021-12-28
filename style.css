@@ -1,0 +1,68 @@
+/* This centers the image and adjusts the size of the picture */
+img {
+  max-width:40%;
+  height:auto;
+  box-sizing: border-box;
+  margin:40px;
+}
+
+p {
+  margin:10px;
+  font-size:20px;}
+
+h1 {
+  color:#5B7B7A;
+  font-family: 'Comfortaa', sans-serif;
+  font-size:64px;
+}
+/* pseudo classes that changes the color of links depending on if you have visited the link, hovering over the link, the link is active.  */ 
+a:link {color:#2F1847;}
+a:visited {color:#E8EDDF;}
+a:hover{color:#E59500;}
+a:active{color:#CFDBD5;}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+html {
+  background-color:#A88A9B;}
+
+h2, h3, p, a, ul, ol{
+  font-family: 'Quicksand', sans-serif;
+  color:#020202;
+}
+
+.wrapper {
+  width:500px;
+  margin:auto;
+}
+
+hr {
+  margin:30px;
+}
+
+.dark-background {
+  background-color:#FDF0D5;
+  color:#020202;
+}
+
+/* Simply centers text when needed */
+.text-centered {
+  text-align: center;
+}
+
+/* centers the UL and Ol without losing the bullet points*/
+ul, ol {
+  display: table;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight:bold;
+}
+/* Increases the padding on the google maps */ 
+iframe{
+  padding:20px;
+}
